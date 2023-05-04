@@ -54,11 +54,11 @@ button {
   transform: scale(0.96);
 }
 
-/* p {
+p {
   font-size: 25px;
   color: #11110f;
   font-style: italic;
-} */
+}
 
 @media screen and (max-width: 450px) {
   #box {

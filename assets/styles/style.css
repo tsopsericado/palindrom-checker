@@ -1,5 +1,5 @@
 body {
-  background-image: url(../images/images\\(4\).jpeg);
+  background-image: url("../images/images\\(4\).jpeg");
   background-color: mediumslateblue;
   margin: 0;
   padding: 0;
@@ -41,13 +41,14 @@ h2 {
   font-size: 16px;
   cursor: pointer;
 }
+
 button {
   background-color: antiquewhite;
   padding: 15px;
   font-weight: bold;
   font-style: italic;
   font-size: 20px;
-  border-radius: 0 25px 0 25px;
+  border-radius: 0 25px;
 }
 
 #btn:active {

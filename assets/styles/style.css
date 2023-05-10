@@ -1,6 +1,5 @@
 body {
-  background-image: url("../images/images\\(4\).jpeg");
-  background-color: mediumslateblue;
+  background-image: url("../images/images\ \(4\).jpeg");
   margin: 0;
   padding: 0;
   height: 100vh;
@@ -25,7 +24,7 @@ input {
 }
 
 h2 {
-  font-size: 60px;
+  font-size: 50px;
   text-shadow: 5px;
   font-style: italic;
   padding: 25px;

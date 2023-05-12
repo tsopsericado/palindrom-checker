@@ -1,6 +1,5 @@
 body {
-  background-image: url(../images/images\\(4\).jpeg);
-  background-color: mediumslateblue;
+  background-image: url("../images/images\ \(4\).jpeg");
   margin: 0;
   padding: 0;
   height: 100vh;
@@ -25,7 +24,7 @@ input {
 }
 
 h2 {
-  font-size: 60px;
+  font-size: 50px;
   text-shadow: 5px;
   font-style: italic;
   padding: 25px;
@@ -41,24 +40,25 @@ h2 {
   font-size: 16px;
   cursor: pointer;
 }
+
 button {
   background-color: antiquewhite;
   padding: 15px;
   font-weight: bold;
   font-style: italic;
   font-size: 20px;
-  border-radius: 0 25px 0 25px;
+  border-radius: 0 25px;
 }
 
 #btn:active {
   transform: scale(0.96);
 }
 
-/* p {
+p {
   font-size: 25px;
   color: #11110f;
   font-style: italic;
-} */
+}
 
 @media screen and (max-width: 450px) {
   #box {

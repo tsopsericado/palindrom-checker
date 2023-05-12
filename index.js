@@ -1,24 +1,30 @@
 let clearbtn = document.getElementById("clearbtn");
 function checkPal() {
   let str = document.getElementById("input").value;
-  let element = document.getElementById("btn");
-  let strLength = str.length;
-  let isPlandrome = true;
+ 
+  // remove any non alphanumerique and join the words to form one 
+   let splijoint = str.split(" ").join("")
+   console.log(splijoint)
 
   // looping through half of the string
+  let isPlandrome = true;
+  for (let i = 0; i < splijoint.length / 2; i++) {
 
-  for (let i = 0; i < strLength / 2; i++) {
-    if (str[i] !== str[strLength - i - 1]) {
+    //checking if the first and last string are thesame.
+    if (splijoint[i] !== splijoint[splijoint.length - i - 1]) {
       isPlandrome = false;
       break;
     }
   }
+  
+  // let isPlandrome = true;
   let result = document.getElementById("result");
   if (isPlandrome) {
     result.innerHTML = "Yesss, sentence is a plaindrome";
   } else {
     result.innerHTML = "Nooo, sentence is not a plaindrome";
-  }
+  } 
+
   // adding clear btn
   clearbtn.addEventListener("click", function () {
     input.value = "";

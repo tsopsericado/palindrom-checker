@@ -1,6 +1,4 @@
 body {
-  background-image: url(../images/images\\(4\).jpeg);
-  background-color: mediumslateblue;
   margin: 0;
   padding: 0;
   height: 100vh;
@@ -11,54 +9,66 @@ body {
 }
 
 #box {
-  background-color: #d06a33c4;
-  width: fit-content;
-  padding: 50px;
-  border-radius: 12px;
+  background-color: #fff;
+  width: 400px;
+  padding: 25px;
+  border: 1px solid gray;
   box-shadow: 8px;
 }
 
 input {
+  width: 100%;
   font-family: sans-serif;
-  font-size: 25px;
-  font-style: italic;
+  font-size: 17px;
 }
 
 h2 {
-  font-size: 60px;
+  font-size: 40px;
   text-shadow: 5px;
   font-style: italic;
   padding: 25px;
-  color: #d7d4c3;
+  color: #000;
 }
 
 #btn {
   padding: 20px;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   gap: 20px;
   font-size: 16px;
   cursor: pointer;
 }
-button {
-  background-color: antiquewhite;
-  padding: 15px;
+
+#checkbtn {
+  padding: 10px;
   font-weight: bold;
   font-style: italic;
   font-size: 20px;
-  border-radius: 0 25px 0 25px;
+}
+
+#clearbtn {
+  padding: 10px;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 20px;
+}
+
+button:hover {
+  cursor: pointer;
+  background: #000;
+  color: #fff;
 }
 
 #btn:active {
   transform: scale(0.96);
 }
 
-/* p {
+p {
   font-size: 25px;
   color: #11110f;
   font-style: italic;
-} */
+}
 
 @media screen and (max-width: 450px) {
   #box {
